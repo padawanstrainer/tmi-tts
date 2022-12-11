@@ -17,6 +17,7 @@ Para solo mandar un mensaje (lo lee por defecto la voz seteada como masculina):
 
 Para mandar un mensaje e indicar la voz
 > !decir -f este mensaje lo lee la voz femenina
+
 > !decir -m este mensaje lo lee la voz masculina (igual sin el -m, sería el valor por defecto)
 
 Hay dos estados de animo:
@@ -26,9 +27,13 @@ Hay dos estados de animo:
 El estado de ánimo va con dos puntos, pegado a la voz (-m:sad o -f:sad, por ejemplo).
 El género de la voz -m/-f puede no estar, pero si se indican ambos van sin espacio
 > !decir :happy mensaje leído con voz masculina feliz
+
 > !decir :sad mensaje leído con voz masculina triste
+
 > !decir -f:happy mensaje leído con voz femenina feliz
+
 > !decir -f:sad mensaje leído con voz femenina triste
+
 > !decir -f :sad mensaje leído con voz femenina normal, porque no debe tener espacios el dos puntos del tipo de voz, de hecho se leerá el "sad" como parte del mensaje
 
 
